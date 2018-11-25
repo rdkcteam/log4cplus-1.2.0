@@ -27,27 +27,27 @@ INCLUDES_SRC_PATH = $(top_srcdir)/include/log4cplus
 liblog4cplus_la_file = $(top_builddir)/liblog4cplus.la
 include src/Makefile.am
 
-include tests/appender_test/Makefile.am
-include tests/configandwatch_test/Makefile.am
-include tests/customloglevel_test/Makefile.am
-include tests/fileappender_test/Makefile.am
-include tests/filter_test/Makefile.am
-include tests/hierarchy_test/Makefile.am
-include tests/loglog_test/Makefile.am
-include tests/ndc_test/Makefile.am
-include tests/ostream_test/Makefile.am
-include tests/patternlayout_test/Makefile.am
-include tests/performance_test/Makefile.am
-include tests/priority_test/Makefile.am
-include tests/propertyconfig_test/Makefile.am
-include tests/socket_test/Makefile.am
-include tests/timeformat_test/Makefile.am
-include tests/thread_test/Makefile.am
+#include tests/appender_test/Makefile.am
+#include tests/configandwatch_test/Makefile.am
+#include tests/customloglevel_test/Makefile.am
+#include tests/fileappender_test/Makefile.am
+#include tests/filter_test/Makefile.am
+#include tests/hierarchy_test/Makefile.am
+#include tests/loglog_test/Makefile.am
+#include tests/ndc_test/Makefile.am
+#include tests/ostream_test/Makefile.am
+#include tests/patternlayout_test/Makefile.am
+#include tests/performance_test/Makefile.am
+#include tests/priority_test/Makefile.am
+#include tests/propertyconfig_test/Makefile.am
+#include tests/socket_test/Makefile.am
+#include tests/timeformat_test/Makefile.am
+#include tests/thread_test/Makefile.am
 
-include simpleserver/Makefile.am
-include qt4debugappender/Makefile.am
-include qt5debugappender/Makefile.am
-include swig/Makefile.common.am
-include swig/python/Makefile.am
+#include simpleserver/Makefile.am
+#include qt4debugappender/Makefile.am
+#include qt5debugappender/Makefile.am
+#include swig/Makefile.common.am
+#include swig/python/Makefile.am
 
-include tests/Makefile.am
+#include tests/Makefile.am
